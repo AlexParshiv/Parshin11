@@ -1,0 +1,49 @@
+body{
+    background: url(../img/fon1.jpg);
+    background-size: cover;
+    height: 1900px;
+    width: 1900px;
+}
+.img{
+    float: right;
+}
+ul {
+    list-style:
+    margin: 0;
+    padding-left: 0;
+    margin-top:25px;
+    background: #931322;
+    height: 50px;
+}
+a {
+    text-decoration: none;
+    background:#931900;
+    color:#fff;
+    padding:0px 15px;
+    font-family: arial;
+    line-height:50px;
+    display: block;
+    border-right: 1px solid red;
+    -moz-transition: all 0.3s 0.01s ease;
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+}
+a:hover {
+    background:#D43737;
+}
+li {
+    float:left;
+    position:relative;
+}
+li > ul {
+    position:absolute;
+    top:25px;
+    display:none;
+}
+li:hover > ul {
+    display:block;
+    width:250px;
+}
+li:hover > ul > li {
+    float:none;
+}
